@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OFFLINE — Photobook · Steven Banda 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div id="welcome-popup" class="welcome-overlay">
+  <div class="welcome-content">
+    <h2>OFFLINE</h2>
+    <p>Please use the arrow keys on keyboard to explore the journey.</p>
+    <p>For best viewing experience, view this site on a computer screen.</p>
+    <button class="btn-continue">ENTER</button>
+  </div>
+</div>
+
+<nav>
+  <a class="nav-brand" onclick="go('cover')">OFFLINE</a>
+  <ul class="nav-links">
+    <li><a href="#connected">Connected</a></li>
+    <li><a href="#chaos">Chaos</a></li>
+    <li><a href="#balance">Balance</a></li>
+    <li><a href="OFFLINE_Photobook_Steven_Banda.pdf" target="_blank" download="OFFLINE_Photobook_Steven_Banda.pdf" class="dl">DOWNLOAD PDF</a></li>
+  </ul>
+</nav>
+
+<div id="gallery">
+
+<div class="panel cover" id="cover">
+  <img class="cover-dino" src="images/Offline Dino.png" alt="OFFLINE pixel dino" onerror="this.style.display='none'">
+  <div class="cover-title">OFFLINE</div>
+  <div class="cover-sub">Photobook</div>
+</div>
+
+<div class="panel text-panel">
+  <p>OFFLINE EXPLORES HOW MODERN CONNECTION IS INCREASINGLY MEDIATED THROUGH SCREENS. THROUGH STAGED PHOTOGRAPHIC SCENES, THE PROJECT REFLECTS ON MOMENTS WHERE PEOPLE ARE PHYSICALLY PRESENT YET DIGITALLY DISTRACTED.</p>
+</div>
+
+<div class="panel text-panel">
+  <p>BY IMAGINING A TEMPORARY ABSENCE OF THE INTERNET, THE WORK REVEALS HOW INDIVIDUALS MIGHT RECONNECT WITH THEIR SURROUNDINGS AND WITH EACH OTHER, ULTIMATELY QUESTIONING HOW TECHNOLOGY SHAPES THE WAY WE EXPERIENCE HUMAN INTERACTION.</p>
+</div>
+
+<div class="panel section-intro dark" id="connected">
+  <img class="section-art" src="images/Coonected Dino.png" alt="Connected Art" onerror="this.style.display='none'">
+  <div class="section-heading">CONNECTED</div>
+</div>
+
+<div class="panel captioned dk">
+  <div class="c-img"><img src="images/Photobook-24.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">Are</span></div>
+</div>
+
+<div class="panel captioned dk">
+  <div class="c-img"><img src="images/Photobook-5.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">We</span></div>
+</div>
+
+<div class="panel captioned dk">
+  <div class="c-img"><img src="images/Photobook-2.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">Connected?</span></div>
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-10.png" onclick="openModal(this)">
+</div>
+
+<div class="panel sl">
+  <div class="sl-stack">
+    <div class="slot"><img src="images/Photobook-11.png" onclick="openModal(this)"></div>
+    <div class="slot"><img src="images/Photobook-7.png" onclick="openModal(this)"></div>
+  </div>
+</div>
+
+<div class="panel sr">
+  <div class="sr-stack">
+    <div class="slot"><img src="images/Photobook-1.png" onclick="openModal(this)"></div>
+    <div class="slot"><img src="images/Photobook-8.png" onclick="openModal(this)"></div>
+  </div>
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-28.png" onclick="openModal(this)">
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-30.png" onclick="openModal(this)">
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-13.png" onclick="openModal(this)">
+</div>
+
+<div class="panel section-intro dark" id="chaos">
+  <img class="section-art" src="images/Chaos Dino.png" alt="Chaos Art" onerror="this.style.display='none'">
+  <div class="section-heading">CHAOS</div>
+</div>
+
+<div class="panel captioned dk">
+  <div class="c-img"><img src="images/Photobook-3.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">Can</span></div>
+</div>
+
+<div class="panel captioned dk">
+  <div class="c-img"><img src="images/Photobook-4.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">We</span></div>
+</div>
+
+<div class="panel captioned dk">
+  <div class="c-img"><img src="images/Photobook-22.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">Adapt?</span></div>
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-9.png" onclick="openModal(this)">
+</div>
+
+<div class="panel sl">
+  <div class="sl-strip" style="width:24%"><img src="images/Photobook-14.png" onclick="openModal(this)"></div>
+  <div class="sl-stack">
+    <div class="slot"><img src="images/Photobook-21.png" onclick="openModal(this)"></div>
+    <div class="slot"><img src="images/Photobook-15.png" onclick="openModal(this)"></div>
+  </div>
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-16.png" onclick="openModal(this)">
+</div>
+
+<div class="panel sl">
+  <div class="sl-strip" style="width:28%"><img src="images/Photobook-12.png" onclick="openModal(this)"></div>
+  <div class="sl-stack">
+    <div class="slot"><img src="images/Photobook-20.png" onclick="openModal(this)"></div>
+  </div>
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-18.png" onclick="openModal(this)">
+</div>
+
+<div class="panel section-intro light" id="balance">
+  <img class="section-art" src="images/Happy Dino.png" alt="Balance Art" onerror="this.style.display='none'">
+  <div class="section-heading">BALANCE</div>
+</div>
+
+<div class="panel captioned lt">
+  <div class="c-img"><img src="images/Photobook-25.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">Can</span></div>
+</div>
+
+<div class="panel captioned lt">
+  <div class="c-img"><img src="images/Photobook-6.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">We</span></div>
+</div>
+
+<div class="panel captioned lt">
+  <div class="c-img"><img src="images/Photobook-26.png" onclick="openModal(this)"></div>
+  <div class="c-bar"><span class="c-word">Survive?</span></div>
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-19.png" onclick="openModal(this)">
+</div>
+
+<div class="panel photo">
+  <img src="images/Photobook-31.jpg" onclick="openModal(this)">
+</div>
+
+<div class="panel hs">
+  <div class="hs-slot"><img src="images/Photobook-32.png" onclick="openModal(this)"></div>
+  <div class="hs-slot"><img src="images/Photobook-33.png" onclick="openModal(this)"></div>
+</div>
+
+<div class="panel credits">
+  <div class="qr-wrap">
+    <img src="qr for photobook web.png" alt="QR Code" onclick="openModal(this)">
+  </div>
+  <div class="credits-copy">© STEVEN BANDA 2026</div>
+</div>
+
+</div><div class="modal-bd" id="modal">
+  <div class="modal-card">
+    <button class="modal-x" id="modal-x">✕</button>
+    <div class="modal-img-wrap"><img id="modal-img" src="" alt=""></div>
+    <div class="modal-foot">
+      <div class="modal-meta">
+        <div class="modal-file" id="modal-file"></div>
+        <div class="modal-buy">BUY THIS PRINT</div>
+      </div>
+      <div class="modal-cta">
+        <div class="modal-price">N$1000<span style="font-size:1rem;opacity:.5">.00</span></div>
+        <button class="btn-buy" onclick="handleBuy()">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hint">SCROLL TO EXPLORE</div>
+
+</body>
+</html>
